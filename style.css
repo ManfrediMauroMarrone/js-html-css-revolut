@@ -6,22 +6,23 @@
 
 .wrapper{
   width: 1200px;
-  height: 75px;
   margin: auto;
-  background-color: red;
 }
 
 header{
-  height: 100%;
   display: flex;
   justify-content: space-between;
 }
 
 .header-left{
-  height: 100%;
   width: 300px;
-  padding: 10px 5px;
-  background-color: green
+  padding: 10px 10px;
+}
+
+.header-left i{
+  font-size: 30px;
+  vertical-align: middle;
+  color: #494B4E;
 }
 
 .left-menu{
@@ -31,40 +32,85 @@ header{
 
 .left-menu li{
   display: inline-block;
+  margin: 0 20px;
 }
 
 .left-menu li a{
   text-decoration: none;
+  color: #494B4E;
+  font-size: 20px;
 }
 
 .header-right{
-  height: 100%;
   width: 600px;
-  padding: 10px 5px;
-  background-color: green
+  padding: 10px 10px;
+  display: flex;
+  align-items: center;
 }
 
 .right-menu{
   list-style-type: none;
-  display: inline-block;
 }
 
 .right-menu li{
   display: inline-block;
+  margin: 0 20px;
 }
 
 .right-menu li a{
   text-decoration: none;
+  font-size: 20px;
+  color: #494B4E;
 }
 
 .drop-function{
   width: 200px;
   padding: 10px;
   position: absolute;
-  background-color: yellow;
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: -1px 11px 29px 0px rgba(0,0,0,0.75);
   display: none;
 }
 
 .drop-function span{
+  display: block;
+}
+
+.drop-subs{
+  width: 200px;
+  padding: 10px;
+  position: absolute;
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: -1px 11px 29px 0px rgba(0,0,0,0.75);
+  display: none;
+}
+
+.drop-subs span{
+  display: block;
+}
+
+.drop-who{
+  width: 200px;
+  padding: 10px;
+  position: absolute;
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: -1px 11px 29px 0px rgba(0,0,0,0.75);
+  display: none;
+}
+
+.drop-who span{
+  display: block;
+}
+
+.drop-help{
+  width: 200px;
+  padding: 10px;
+  position: absolute;
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: -1px 11px 29px 0px rgba(0,0,0,0.75);
+  display: none;
+}
+
+.drop-help span{
   display: block;
 }
